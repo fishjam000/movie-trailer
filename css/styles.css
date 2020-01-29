@@ -16,6 +16,32 @@ main {
     flex-wrap: wrap;
   }
   
+
+
+
+
+
+/* Custom UI Controls */
+
+.plyr__control--overlaid {
+    background: lightskyblue;
+}
+
+.plyr--full-ui input[type="range"] {
+    color: lightskyblue;
+}
+
+.plyr--video .plyr__control:hover {
+    background: mediumaquamarine;
+}
+
+/* .plyr--video .plyr__controls {
+        color: coral;
+      font-size: 2em;
+    } */
+
+
+
   /* Media Queries */
   /* 
     Mobile: 
