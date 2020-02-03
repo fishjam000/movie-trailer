@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Mountains+of+Christmas&display=swap');
+
+
 /* General Styling */
 body {
   background: linear-gradient(#116599, 30%,  #001038);
   color: #FFFFFF;
   font-family: sans-serif;
 }
+
+
+
+/* Font Styling*/
+h1 {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+
+blockquote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+
+}
+
+
 
 
 /* Link Styling */
@@ -25,12 +46,16 @@ a:focus, a:hover {
 
 
 
+
 /* Parent Container */
 main { 
     display: grid;
     grid-template-columns: 1fr;
   }
   
+
+
+
 /* Cast of the Movie */
 h2 {
     font-size: 1.2rem;
@@ -58,10 +83,6 @@ figure img {
   
   
 
-
-
-
-
 /* Custom UI Controls */
 
 .plyr__control--overlaid {
@@ -73,8 +94,11 @@ figure img {
 }
 
 .plyr--video .plyr__control:hover {
-    background: mediumaquamarine;
+    background: cornflowerblue;
 }
+
+
+
 
 /* .plyr--video .plyr__controls {
         color: coral;
@@ -136,7 +160,6 @@ figure img {
     }
   
   }
-  
   
   
   
