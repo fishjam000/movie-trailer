@@ -5,9 +5,24 @@ body {
   font-family: sans-serif;
 }
 
-a {
+
+/* Link Styling */
+a:link {
   color: CornflowerBlue;
 }
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:focus, a:hover {
+  color: darkcyan;
+}
+
 
 
 /* Parent Container */
