@@ -10,11 +10,31 @@ main {
     grid-template-columns: 1fr;
   }
   
-  /* Cast of the Movie */
-  .cast {  
+/* Cast of the Movie */
+h2 {
+    font-size: 1.2rem;
+  }
+  
+.cast {
     display: flex;
     flex-wrap: wrap;
+    background: url(picture.jpg) no-repeat center top;
   }
+  
+figure {
+    margin: 0 6rem 3rem;
+  }
+  
+figure img {
+    object-fit: cover;
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+    position: center;
+    
+  }
+  
+  
   
 
 
