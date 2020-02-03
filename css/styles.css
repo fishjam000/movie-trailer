@@ -1,7 +1,13 @@
-/* body {
-    background: coral;
-} */
+/* General Styling */
+body {
+  background: linear-gradient(#116599, 30%,  #001038);
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
 
+a {
+  color: CornflowerBlue;
+}
 
 
 /* Parent Container */
