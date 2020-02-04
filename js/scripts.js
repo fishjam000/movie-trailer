@@ -3,7 +3,7 @@ console.log('OK')
 // Initialize player
 const player = new Plyr('#player', {
 
-controls: ['play', 'current-time', 'progress']
+controls: ['play', 'current-time', 'progress', 'volume', 'fullscreen']
 
 
 });
