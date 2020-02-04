@@ -6,6 +6,8 @@ body {
   background: linear-gradient(#116599, 30%,  #001038);
   color: #FFFFFF;
   font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
 }
 
 
@@ -85,18 +87,26 @@ figure img {
 
 /* Custom UI Controls */
 
+/* change color of play button */
 .plyr__control--overlaid {
     background: lightskyblue;
 }
 
+/* change color of progress bar */
 .plyr--full-ui input[type="range"] {
     color: lightskyblue;
 }
 
+/* button on focus */
 .plyr--video .plyr__control:hover {
     background: cornflowerblue;
 }
 
+/* change player controls */
+.plyr--video .plyr__controls {
+  color: cornflowerblue;
+font-size: 2em;
+}
 
 
 
