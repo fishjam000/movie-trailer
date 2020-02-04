@@ -3,7 +3,7 @@
 
 /* General Styling */
 body {
-  background: linear-gradient(#116599, 30%,  #001038);
+  background: linear-gradient(#116599, 23%,  #001038);
   color: #FFFFFF;
   font-family: sans-serif;
   width: 90%;
@@ -19,10 +19,16 @@ h1 {
   text-align: center;
 }
 
+.movie-info {
+  font-size: 2rem;
+  margin: 0;
+}
+
 blockquote {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-align: center;
+  margin-bottom: 5rem;
 
 }
 
@@ -55,6 +61,17 @@ main {
     grid-template-columns: 1fr;
   }
   
+.grid-2 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 2rem;
+}
+
+
+/* Info Container */
+/* .info {
+  width: 30%;
+} */
 
 
 
@@ -62,21 +79,31 @@ main {
 h2 {
     font-size: 1.2rem;
   }
-  
+
 .cast {
+    /* width: 70%; */
     display: flex;
     flex-wrap: wrap;
-    background: url(picture.jpg) no-repeat center top;
   }
   
+.anthony {
+  margin-top: -7px;
+}
+
+figcaption {
+  font-size: 1rem;
+  font-style: italic;
+  color: powderblue;
+}
+
 figure {
-    margin: 0 6rem 3rem;
+    margin: 0 2rem 3rem;
   }
   
 figure img {
     object-fit: cover;
-    width: 100px;
-    height: 130px;
+    width: 95px;
+    height: 125px;
     overflow: hidden;
     position: center;
     
