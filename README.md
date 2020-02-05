@@ -4,7 +4,7 @@
 
 ## Description
 
-A heartfelt, melancholic movie with clasic Tim Burton eccentricity. A tale of a man with scissors for hands.
+A heartfelt, melancholic movie with classic Tim Burton eccentricity. A tale of a man with scissors for hands.
 
 ## Sources
 
