@@ -2,7 +2,7 @@
 
 /* General Styling */
 body {
-  background: linear-gradient(#116599, 23%,  #001038);
+  background: linear-gradient(#116599, 25%, #0B133D);
   color: #FFFFFF;
   font-family: sans-serif;
   width: 80%;
@@ -12,7 +12,7 @@ body {
 
 
 /* Font Styling*/
-body {
+.cast, .info {
   font-family: 'Raleway', sans-serif;
 
 }
@@ -24,13 +24,14 @@ h1 {
 }
 
 .movie-info {
+  font-family: 'Fondamento', cursive;
   font-size: 2rem;
   margin: 0;
 }
 
 blockquote {
   font-family: 'Fondamento', cursive;
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 5rem;
 
@@ -65,18 +66,22 @@ main {
     grid-template-columns: 1fr;
   }
   
-/* .grid-2 {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 2rem;
-} */
 
 
-/* Info Container */
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+}
+
 .info {
   background: rgba(255, 255, 255, 0.035);
-  font-family: 'Fondamento', cursive;
+  width: 30%;
+  margin-top: 0;
+  margin-right: 2rem;
+  padding: 1.5rem;
 }
+
 
 
 
@@ -86,11 +91,12 @@ h2 {
   }
 
 .cast {
-    /* width: 70%; */
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background: rgba(255, 255, 255, 0.035);
+    margin: 0;
 
   }
   
@@ -155,51 +161,82 @@ figure img {
 /* Mobile 
   0 to 26em (416 pixels)
 */
-@media only screen and (min-width: 0) { 
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
+@media only screen and (min-width: 0) and (max-width: 26em) { 
+
+  .flex-container {
+      flex-direction: column;
+
+  }
+
+  .info {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .plyr, .info, .cast {
+    width: 90%;
   }
   
+
+  .cast {
+    justify-content: space-around;
+
+  }
 }
 
 /* Tablet 
   26em (416 pixels) to 72em (1,152 pixels)
 */
-@media only screen and (min-width: 26em)  {
+@media only screen and (min-width: 26em) and (max-width: 72em) {
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+
   }
   
+  .info {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .plyr, .info, .cast {
+    width: 90%;
+  }
+
+  .cast {
+    justify-content: space-around;
+    align-content: center;
+
+  }
+
+
 }
 
 /* Desktop 
    72em (1,152 pixels) to 90em (1440 pixels)
 */
-@media screen and (min-width: 72em)  { 
+@media screen and (min-width: 72em) and (max-width: 90em)  { 
   
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+.flex-container {
+  flex-direction: row;
+}
+
+
+
 
 }
+
+
+
 
 /* Wide Desktop: 
   Greater than 90em (1440px)
 */
 @media screen and (min-width: 90em) { 
   
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
+.flex-container {
+  flex-direction: row;
+}
 
 }
