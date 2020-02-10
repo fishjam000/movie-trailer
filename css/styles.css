@@ -101,7 +101,7 @@ h2 {
 .cast {
     width: 70%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     background: rgba(255, 255, 255, 0.035);
     margin: 0;
@@ -123,9 +123,9 @@ figure {
   }
   
 figure img {
-    object-fit: cover;
-    width: 70px;
-    height: 100px;
+    object-fit: contain;
+    width: 20%;
+    height: 200px;
     overflow: hidden;
     position: center;    
   }
