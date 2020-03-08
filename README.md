@@ -10,5 +10,5 @@ A heartfelt, melancholic movie with classic Tim Burton eccentricity. A tale of a
 
 * [Plyr library](plyr.io/)
 * [Google Fonts](https://fonts.google.com/)
-* [A CodePen Pen](URL_TO_PEN)
-* [ANOTHER_SOURCE]()
+* [A CodePen Pen](https://codepen.io/redstapler/pen/MZXJZx) and the site (https://redstapler.co/pure-css-snow-fall-effect/), for snowfall
+* [ANOTHER_SOURCE](https://dev.to/lenmorld/css-gotcha-how-to-fill-page-with-a-div-270j)
