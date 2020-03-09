@@ -176,13 +176,14 @@ figure img {
   }
 
   .info {
-    margin-right: 0;
+    margin: auto;
     margin-bottom: 2rem;
     padding: .5rem;
+    width: 100%;
   }
 
   .info p {
-    font-size: .75rem;
+    font-size: 1.5rem;
   }
 
   .plyr {
@@ -191,15 +192,13 @@ figure img {
     margin: 0 auto;
   }
   
-  .grid-container {
+  /* .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-  }
+  } */
 
   .cast {
-
     grid-template-columns: 1fr;
-
   }
 
   h1 {
@@ -207,8 +206,9 @@ figure img {
   }
 
   blockquote {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     width: 100%;
+    margin: 0 auto;
   }
 }
 
