@@ -169,19 +169,18 @@ figure img {
 @media only screen and (min-width: 0) and (max-width: 26em) { 
 
   body {
-    width: 55%;
+    width: 75%;
     margin: 0 auto;
-    display: block;
+
   }
 
   .info {
     margin-right: 0;
-    width: 20%;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
     justify-content: center;
   }
 
-  .plyr {
+  .plyr, .info, .cast {
     width: 100%;
   }
   
@@ -192,7 +191,15 @@ figure img {
   .cast {
     display: block;
     /* grid-template-columns: 1fr; */
+    padding: 2rem;
+  }
 
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  blockquote {
+    font-size: 2.5rem;
   }
 }
 
