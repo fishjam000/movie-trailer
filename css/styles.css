@@ -183,7 +183,7 @@ figure img {
   }
 
   .info p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .plyr, main {
@@ -196,9 +196,9 @@ figure img {
   }
 
   .cast {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1.5rem;
+    display: block;
+    /* grid-template-columns: 1fr; */
+    padding: 2rem;
   }
 
   h1 {
@@ -208,7 +208,6 @@ figure img {
   blockquote {
     font-size: 2.5rem;
     width: 100%;
-    text-align: center;
   }
 }
 
