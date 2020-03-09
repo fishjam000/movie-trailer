@@ -5,7 +5,7 @@ body {
   background: linear-gradient( #042556, 77%, #AEECFF);
   color: #FFFFFF;
   font-family: 'Mountains of Christmas', cursive;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -34,11 +34,12 @@ blockquote {
 
 h2 {
   font-size: 2.25rem;
+  margin-bottom: .5rem;
 }
 
 figcaption {
   font-size: 1.5rem;
-  color: powderblue;
+  color: white;
 }
 
 
@@ -86,7 +87,7 @@ a:focus, a:hover {
     65%,
     rgba(255, 0, 0, 0) );
   margin-top: 0;
-  margin-right: 2rem;
+  margin-right: 1.25rem;
   padding: 1.5rem;
 }
 
@@ -118,11 +119,11 @@ figure {
   }
   
 figure img {
-    object-fit: contain;
-    width: 80%;
+    object-fit: cover;
+    width: 200px;
     height: 200px;
     overflow: hidden;
-    position: center;    
+    position: relative;
   }
   
   
@@ -152,7 +153,8 @@ figure img {
 
 /* player size */
 .plyr {
-  width: 70%;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
 }
 
@@ -166,24 +168,30 @@ figure img {
 */
 @media only screen and (min-width: 0) and (max-width: 26em) { 
 
-  .flex-container {
-      flex-direction: column;
-
+  body {
+    width: 55%;
+    margin: 0 auto;
+    display: block;
   }
 
   .info {
     margin-right: 0;
-    margin-bottom: 2rem;
+    width: 20%;
+    /* margin-bottom: 2rem; */
+    justify-content: center;
   }
 
-  .plyr, .info, .cast {
-    width: 90%;
+  .plyr {
+    width: 100%;
   }
   
+  .grid-container {
+    display: block;
+  }
 
   .cast {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    /* grid-template-columns: 1fr; */
 
   }
 }
@@ -193,9 +201,9 @@ figure img {
 */
 @media only screen and (min-width: 26em) and (max-width: 72em) {
     
-  .flex-container {
-    flex-direction: column;
-    align-items: center;
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
 
   }
   
@@ -220,13 +228,15 @@ figure img {
    72em (1,152 pixels) to 90em (1440 pixels)
 */
 @media screen and (min-width: 72em) and (max-width: 90em)  { 
-  
-.flex-container {
-  flex-direction: row;
-}
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-
+    .info {
+      margin-right: 0;
+    }
 
 }
 
@@ -238,10 +248,6 @@ figure img {
 */
 @media screen and (min-width: 90em) { 
   
-.flex-container {
-  flex-direction: row;
-}
-
 }
 
 
