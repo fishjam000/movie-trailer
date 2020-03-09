@@ -87,7 +87,7 @@ a:focus, a:hover {
     to bottom,
     rgba(120, 163, 188, .9),
     65%,
-    rgba(255, 0, 0, 0) );
+    rgba(120, 163, 188, 0) );
   margin-top: 0;
   padding: 1.5rem;
 }
@@ -105,7 +105,7 @@ a:focus, a:hover {
       to bottom,
       rgba(120, 163, 188, .9),
       65%,
-      rgba(255, 0, 0, 0) );
+      rgba(120, 163, 188, 0) );
     margin: 0;
 
   }
